@@ -1,0 +1,6 @@
+
+
+RewriteEngine on
+
+RewriteRule ^([^/.]+)/?$          index.php?a=$1 [QSA]
+RewriteRule ^api/([^/.]+)/?$      api.php?r=$1 [QSA]
